@@ -6458,3 +6458,84 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.28-15.05.46:496][896]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
 [2026.04.28-15.05.46:496][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2026.04.28-15.05.46:568][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.04.28-15.06.20:886][ 52]LogAudioMixer: Warning: FMixerPlatformXAudio2::OnCriticalError: 0x88880001: UNKNOWN
+[2026.04.28-15.06.20:889][ 52]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=PL2492Q (NVIDIA High Definition Audio), InstanceID=1
+[2026.04.28-15.06.20:889][ 52]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{e1a6b108-9f50-4920-9bdb-6290f6a820aa}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.04.28-15.06.21:037][ 52]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{e1a6b108-9f50-4920-9bdb-6290f6a820aa}]
+[2026.04.28-15.06.21:037][ 52]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.04.28-15.06.21:037][ 52]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.04.28-15.06.21:373][ 53]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e1a6b108-9f50-4920-9bdb-6290f6a820aa}, Name=PL2492Q (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=22.26
+[2026.04.28-15.06.21:373][ 53]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.04.28-15.06.21:373][ 53]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.04.28-15.06.21:374][ 53]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.04.28-15.07.18:072][224]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.04.28-15.07.18:103][224]LogStall: Shutdown...
+[2026.04.28-15.07.18:103][224]LogStall: Shutdown complete.
+[2026.04.28-15.07.18:125][224]LogSlate: Window 'BlenderTest - Unreal Editor' being destroyed
+[2026.04.28-15.07.18:225][224]Cmd: QUIT_EDITOR
+[2026.04.28-15.07.18:225][225]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.04.28-15.07.18:228][225]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.04.28-15.07.18:228][225]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.04.28-15.07.18:228][225]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.04.28-15.07.18:230][225]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.04.28-15.07.18:230][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.28-15.07.18:230][225]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.04.28-15.07.18:236][225]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.04.28-15.07.18:236][225]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.04.28-15.07.18:236][225]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.04.28-15.07.18:240][225]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.04.28-15.07.18:240][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.28-15.07.18:242][225]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.04.28-15.07.18:242][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.28-15.07.18:244][225]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.04.28-15.07.18:244][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.28-15.07.18:246][225]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.04.28-15.07.18:246][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.28-15.07.18:248][225]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.04.28-15.07.18:248][225]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.04.28-15.07.18:254][225]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.04.28-15.07.18:944][225]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.04.28-15.07.18:944][225]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.04.28-15.07.18:945][225]LogAudio: Display: Audio Device unregistered from world 'Lvl_ThirdPerson'.
+[2026.04.28-15.07.18:945][225]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.04.28-15.07.18:945][225]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.04.28-15.07.18:946][225]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.04.28-15.07.18:955][225]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.04.28-15.07.18:955][225]LogAudio: Display: Audio Device Manager Shutdown
+[2026.04.28-15.07.18:956][225]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2026.04.28-15.07.18:957][225]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.04.28-15.07.18:958][225]LogExit: Preparing to exit.
+[2026.04.28-15.07.19:004][225]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.19:019][225]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.04.28-15.07.20:159][225]LogEditorDataStorage: Deinitializing
+[2026.04.28-15.07.20:244][225]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.04.28-15.07.20:254][225]LogExit: Editor shut down
+[2026.04.28-15.07.20:257][225]LogExit: Transaction tracking system shut down
+[2026.04.28-15.07.20:353][225]LogExit: Object subsystem successfully closed.
+[2026.04.28-15.07.20:381][225]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.04.28-15.07.20:445][225]LogMemoryProfiler: Shutdown
+[2026.04.28-15.07.20:445][225]LogNetworkingProfiler: Shutdown
+[2026.04.28-15.07.20:445][225]LoadingProfiler: Shutdown
+[2026.04.28-15.07.20:445][225]LogTimingProfiler: Shutdown
+[2026.04.28-15.07.20:445][225]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.04.28-15.07.20:445][225]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
